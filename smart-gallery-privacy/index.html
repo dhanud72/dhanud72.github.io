@@ -48,21 +48,47 @@
 <body>
 <main>
   <h1>Smart Gallery — Privacy Policy</h1>
-  <p class="sub">Last updated: 21 November 2026</p>
+  <p class="sub">Last updated: 25 November 2026</p>
 
   <div class="lede">
     <p>Smart Gallery is a photo and video gallery for the pictures already on
-    your phone. <strong>The app has no internet permission.</strong> It cannot
-    send anything anywhere, and it shows no ads.</p>
-    <p>Your photos, videos and everything the app works out about them stay on
-    your phone.</p>
+    your phone. <strong>Your photos, videos and everything the app works out
+    about them stay on your phone.</strong> None of them is ever uploaded.</p>
+    <p>The app is free and shows one banner ad from Google AdMob. That banner
+    is the only reason the app uses the internet.</p>
   </div>
 
   <h2>What we collect</h2>
   <p><strong>Nothing.</strong> We operate no servers and receive no data from
-  the app. There is no account, no sign-in, no analytics, no crash reporting
-  and no advertising. We cannot identify you, and we could not contact you
-  unless you email us first.</p>
+  the app. There is no account, no sign-in, no analytics and no crash
+  reporting. We cannot identify you, and we could not contact you unless you
+  email us first. The ad banner is provided by Google; see Advertising
+  below.</p>
+
+  <h2>Advertising</h2>
+  <p>The app shows a banner supplied by <strong>Google AdMob</strong> at the
+  bottom of the gallery. It is removed while a photo or video is open full
+  screen and while you edit. To show it, Google's ad software collects
+  information from the device, which typically includes:</p>
+  <ul>
+    <li>the device's advertising ID</li>
+    <li>IP address, and an approximate location derived from it</li>
+    <li>device and app information, such as model, OS version and app version</li>
+    <li>interactions with the ad, such as whether it was seen or tapped</li>
+  </ul>
+  <p>This is collected by Google, not by us — we receive only anonymous,
+  aggregated totals of how many ads were shown. <strong>Google's ad software
+  has no access to your photos, videos or the text found in them.</strong>
+  Where the law requires it, the app asks for your consent before
+  personalised ads are shown, and you can change that choice later in the
+  app's settings under <em>Ad privacy choices</em>. Google's handling of the
+  data is described in the
+  <a href="https://policies.google.com/technologies/partner-sites">Google
+  Privacy &amp; Terms</a> and the
+  <a href="https://support.google.com/admob/answer/6128543">AdMob help
+  centre</a>.</p>
+  <p>You can reset or delete your advertising ID at any time in
+  Settings → Google → Ads on your device.</p>
 
   <h2>Your photos and videos</h2>
   <p>The app reads the photos and videos on your phone so it can show them,
@@ -103,21 +129,24 @@
     or <em>read storage</em> on Android 12 and older): to show and organise
     your gallery. On Android 14 and newer you can allow only selected
     photos.</li>
-    <li><strong>Run at startup</strong>, <strong>wake lock</strong>,
-    <strong>foreground service</strong> and <strong>network state</strong>:
-    added by Android's WorkManager library, which the app uses to run a scan
-    you started in the background and to resume it after a restart. Network
-    state is only read by that library to decide when to run work; the app
-    has no internet permission and cannot connect to anything.</li>
+    <li><strong>Internet</strong> and <strong>network state</strong>: for the
+    ad banner only. Photos, videos and recognised text are never sent.</li>
+    <li><strong>Advertising ID</strong> and Android's ad-services permissions:
+    added by Google's ad software for the banner.</li>
+    <li><strong>Run at startup</strong>, <strong>wake lock</strong> and
+    <strong>foreground service</strong>: added by Android's WorkManager
+    library, which the app uses to run a scan you started in the background
+    and to resume it after a restart.</li>
   </ul>
-  <p>The app requests <strong>no internet, no location, no camera, no
-  microphone and no contacts</strong>.</p>
+  <p>The app requests <strong>no location, no camera, no microphone and no
+  contacts</strong>.</p>
 
   <h2>Deleting your data</h2>
   <p>Everything the app keeps is on your phone. Clear the app's storage in
   Android settings, or uninstall the app, to delete it. Your photos and videos
-  themselves are not removed by uninstalling. There is nothing held anywhere
-  else for us to delete.</p>
+  themselves are not removed by uninstalling. We hold nothing anywhere else to
+  delete; for advertising data, reset your advertising ID as described
+  above.</p>
 
   <h2>Children</h2>
   <p>Smart Gallery is a general-audience utility and is not directed at
